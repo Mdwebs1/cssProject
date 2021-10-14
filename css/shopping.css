@@ -1,0 +1,442 @@
+@media only screen and (max-width: 600px){
+
+    body{
+        margin: 0%;
+        padding: 0%;
+        background: linear-gradient(45deg, #FC466B, #3F5EFB);
+      
+    }
+    header{
+        margin: 0%;
+        padding: 20px;
+        background-color: rgba(0,0,0,.2);
+        color: white;
+        
+        
+         }
+        .logo{
+            margin: 0%;
+            display: none;
+            justify-content: space-around;
+         
+        }
+        .content{
+            display: none;
+        }
+        ul{
+            
+            display: flex;
+            list-style-type: none;
+            justify-content: space-between;
+           
+        }
+        li{
+            margin-left: 30px;
+            margin-left: 30px;
+            
+        }
+        a{
+            text-decoration: none;
+            color: white;
+           
+        }
+        .burgger{
+            background-color: white;
+            width: 3%;
+            height: 1px;
+            margin: 4px;
+            margin-left: 400px;
+        }
+        .nav{
+            display: block;
+            color: rgb(14, 13, 13);
+            border-radius: 2px solid black;
+    
+            
+        }
+        .navTag{
+            width: 40%;
+            margin-top: 40px;
+            text-align: center;
+            margin-left: 200px;
+            color: white;
+            border-radius: 5px solid black;
+            width: 40%;
+           
+        } 
+        .mashaInside{
+            display: none;
+           
+            border-radius: 2px solid black;
+            
+           
+           
+        }
+    .wrapper{
+      
+        position: absolute;
+        width:  100%;
+        height: 100%;
+        overflow: hidden;
+        background: linear-gradient(45deg, #FC466B, #3F5EFB);
+    }
+    .box div{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        border: rgb(248, 240, 240) solid;
+        
+        background-color:rgba(49, 41, 49, 0.1);
+        border-radius:10%;
+        backdrop-filter:blur(2.5px);
+       
+        
+       
+    }
+    
+    .box div:nth-child(1){
+     top:12%;
+     left: 42%;
+     animation: animate 10s linear infinite;
+    }
+    .box div:nth-child(2){
+        top:70%;
+        left: 50%;
+        animation: animate 7s linear infinite;
+    }
+    .box div:nth-child(3){
+        top:17%;
+        left: 6%;
+        animation: animate 9s linear infinite;
+    }
+    .box div:nth-child(4){ 
+        top:20%;
+        left: 60%;
+        animation: animate 10s linear infinite;}
+    .box div:nth-child(5){
+         top:67%;
+        left: 10%;
+        animation: animate 12s linear infinite;}
+    .box div:nth-child(6){ 
+        top:80%;
+        left: 70%;
+        animation: animate 7s linear infinite;}
+    .box div:nth-child(7){
+        top:60%;
+        left: 800px;
+        animation: animate 15s linear infinite;
+    }
+    .box div:nth-child(8){
+        top:70px;
+        left: 50px;
+        animation: animate 16s linear infinite;
+    }
+    .box div:nth-child(8){
+        top:32%;
+        left: 25%;
+        animation: animate 16s linear infinite;
+    }
+    .box div:nth-child(9){
+        top:90%;
+        left: 25;
+        animation: animate 9s linear infinite;
+    }
+    
+    .box div:nth-child(10){
+        top:40%;
+        left: 80;
+        animation: animate 5s linear infinite;
+    }
+    .box div:nth-child(11){
+        top:60%;
+        left: 70%;
+        animation: animate 8s linear infinite;
+    }
+    .box div:nth-child(12){
+        top:20%;
+        left: 77%;
+       
+        animation: animate 18s linear infinite;
+    }
+    .box div:nth-child(13){
+        top:22%;
+        left: 65%;
+        animation: animate 5s linear infinite;
+    }
+    .box div:nth-child(14){
+        top:84%;
+        left: 73%;
+        animation: animate 11s linear infinite;
+    }
+    .box div:nth-child(15){
+        top:82%;
+        left: 30%;
+        animation: animate 17s linear infinite;
+    }
+    .box div:nth-child(16){
+        top:75%;
+        left: 36%;
+        animation: animate 3s linear infinite;
+    }
+    @keyframes animate{
+        0%{
+            transform: scale(0) translateX(0) rotate(0);
+            opacity: 1;
+        }
+        100%{
+            transform: scale(1.3) translateX(-90px) rotate(360deg);
+            opacity: 0;
+        }
+    }
+    
+     
+     .boxInside{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        
+        margin-top: 70px;
+        
+     }   
+     
+    .inside{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width:80%;
+        height:80%;
+        margin-left: 40px;
+        background-color:rgba(255,255,255,0.1);
+        border-radius:1rem;
+        backdrop-filter:blur(2.5rem);
+        border:1px solid rgba(255,255,255,0.5);
+        border-right:1px solid rgba(255,255,255,0.1);
+        border-bottom:1px solid rgba(255,255,255,0.1);
+        box-shadow:0 2.5rem 4.5rem rgba(0,0,0,0.1);
+    
+      }
+      p{
+        font-family: 'Yaldevi', sans-serif;
+        color: white;
+        font-size: 20px;
+        width: 70%;
+        text-align: center;
+        margin-left: 40px;
+      }
+      #fname{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin-left: 30%;
+        margin-bottom: 7px;
+        background: rgba(255,255,255,0.3);
+        border-radius: 20px;
+        border-left: 1px solid rgba(255,255,255,0.3);
+        border-top: 1px solid rgba(255,255,255,0.3);
+        backdrop-filter: blur(5px);
+        padding: 10px;
+      }
+      #btn{
+        background: rgba(255,255,255,0.3);
+        border-radius: 20px;
+        border-left: 1px solid rgba(255,255,255,0.3);
+        border-top: 1px solid rgba(255,255,255,0.3);
+        backdrop-filter: blur(5px);
+        padding: 5px;
+        cursor: pointer;  
+        background-color: white;
+        font-weight: bold;
+      }
+      .right-sid{
+          display: grid;
+          grid-template-columns: 1fr;
+          text-align: center;
+      }
+      #test{
+        display: grid;
+        background-color: #f7f5ec;
+        margin-left: 9px;
+        width: 100%;
+        height: 100%;
+   
+      }
+      
+        
+      
+      .footer{
+            
+        width: 100%; 
+        height: 10vh;
+        background-color: rgba(0,0,0,.2);
+        position: absolute;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        bottom: -60;
+        font-family: 'Lato', sans-serif;
+         
+    } 
+    .links{
+        display: flex;
+        justify-content: space-around;
+       
+    }
+    }
+    
+    /*#######################################################*/
+      /*taplet*/
+      @media only screen and (min-width: 768px){
+        
+    body{
+        margin: 0%;
+        padding: 0%;
+        background: linear-gradient(45deg, #FC466B, #3F5EFB);
+      
+    }
+    header{
+        margin: 0%;
+        padding: 3px;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgba(0,0,0,.2);
+       
+          
+        
+        
+        }
+        .logo{
+            margin: 0%;
+            display: flex;
+            justify-content: space-around;
+             
+        }
+        ul{
+            
+            display: flex;
+            list-style-type: none;
+            justify-content: space-between;
+           
+        }
+        li{
+            margin-left: 30px;
+            
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        #masha{
+            display: none;
+        }
+        .mashaInside{
+            display: none;
+        }
+        .burgger{
+            display: none;
+        }
+ 
+    
+      
+      .footer{
+            
+        width: 100%; 
+        height: 10vh;
+        background-color: rgba(0,0,0,.2);
+        position: absolute;
+        margin-top: 20px;
+        padding-bottom: 20px;
+        bottom: -200;
+        font-family: 'Lato', sans-serif;
+         
+    } 
+    .links{
+        display: flex;
+        justify-content: space-around;
+       
+    }
+      }
+    
+    
+     /* #################################################*/
+      /*Laptop*/
+    @media screen and (min-width: 1024px) and (max-height: 1310px) {
+    
+     
+        body{
+            margin: 0%;
+            padding: 0%;
+            background: linear-gradient(45deg, #FC466B, #3F5EFB);
+          
+        }
+        header{
+        margin: 0%;
+        padding: 3px;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: rgba(0,0,0,.2);
+       
+          
+        
+        
+        }
+        .logo{
+            margin: 0%;
+            display: flex;
+            justify-content: space-around;
+             
+        }
+        ul{
+            
+            display: flex;
+            list-style-type: none;
+            justify-content: space-between;
+           
+        }
+        li{
+            margin-left: 30px;
+            
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        #masha{
+            display: none;
+        }
+        .mashaInside{
+            display: none;
+        }
+        .burgger{
+            display: none;
+        }
+        .nav{
+            display: none;
+        }
+       
+     
+          .footer{
+            
+            width: 100%; 
+            height: 10vh;
+            background-color: rgba(0,0,0,.2);
+            position: absolute;
+            margin-top: 20px;
+            padding-bottom: 20px;
+            bottom: -1;
+            color: white;
+            font-family: 'Lato', sans-serif;
+             
+        } 
+        .links{
+            display: flex;
+            justify-content: space-around;
+           
+        }
+      
+    }
+      
+      
+      
+      

@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stor</title>
     <link rel="stylesheet" href="css/stor.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Yaldevi&display=swap" rel="stylesheet">
     
 </head>
-<body>
+<body onload="loadTicket()">
   <header>
     <div class="logo">
       <p>MD.<span>WEBS</span></p>
@@ -18,6 +19,8 @@
               <li><a href="index.html"> Home</a></li>
               <li><a href="store.html"> Stor</a></li>
               <li><a href="table.html">information</a></li>
+              <li><img id="count-el"  style="width: 20px; margin: 0%;" src="img/shopping cart.png"></li>
+              <span id='lblCartCount'>  </span>
             </ul>
           </div>
           <!-- responsPhon -->
@@ -33,19 +36,21 @@
             <li class="navTag">Home</li>
             <li class="navTag">MyAcount</li>
             <li class="navTag">Contact us</li>
+            <li><a href="shopping.html"  onclick="loadd()">Test</a></li>
+            <li><a href="shopping.html"> <img id="count-el" style="width: 20px;" src="img/shopping cart.png" onclick="loadd()"></a></li>
           </ul>
         </div>
   </header>
-   <div class="center">
+    <div class="center">
 <p class="p">It's Time To Get Your Favorite Celebrity Autograph</p>
-</div>
+</div> 
 
-<div class="section">
-  <div class="imgBack"> 
+<div id="section"></div>
+   <div class="imgBack" onclick="imgCard()"> 
     <a href="adel.html"><img src="img/adele.jpg"style="width: 20%;height:30%;" ></a>
     <div class="text">
     <p >adel</p>
-    <button id="btn" type="button"> Ticket</button>
+    <button class="btn" data-name="adel" data-price="0" type="button" onclick="add()"> Ticket</button>
   </div>
   <div class="IIcon">
   <div class="icon">
@@ -61,7 +66,7 @@
      <div class="text">
       <div class="hide"><p id="hide">hologram party.</p></div>
     <p>Whitney Houston</p>
-    <button id="btn" type="button"> Ticket</button>
+    <button class="btn" data-name="Whitney Houston" data-price="0" type="button" onclick="add()"> Ticket</button>
      </div>
      
      <div class="IIcon">
@@ -76,7 +81,7 @@
      <img src="img/Celine Dion.jpg" style="width: 20%;height:30%;" >
      <div class="text">
     <p>Celine Dion</p>
-    <button id="btn" type="button"> Ticket</button>
+    <button class="btn" data-name="Celine Dion" data-price="0" type="button" onclick="add()"> Ticket</button>
      </div>
      <div class="IIcon">
      <div class="icon">
@@ -90,7 +95,7 @@
    <img src="img/cia.jpg"style="width: 20%;height:30%;" >
    <div class="text">
    <p >cia</p>
-   <button id="btn" type="button"> Ticket</button>
+   <button class="btn" data-name="Cia" data-price="0" type="button" onclick="add()"> Ticket</button>
    </div>
    <div class="IIcon">
    <div class="icon">
@@ -104,7 +109,7 @@
     <img src="img/Ariana Grande.jpg" style="width: 20%;height:30%;">
     <div class="text">
     <p >Ariana Grande</p>
-    <button id="btn" type="button"> Ticket</button>
+    <button class="btn" type="button" onclick="add(e)"> Ticket</button>
   </div>
   <div class="IIcon">
   <div class="icon">
@@ -118,7 +123,7 @@
      <img src="img/Taylor Swift.jpg" style="width: 20%;height:30%;">
      <div class="text">
     <p>Taylor Swift</p>
-    <button id="btn" type="button"> Ticket</button>
+    <button class="btn" type="button" onclick="add()"> Ticket</button>
      </div>
      <div class="IIcon">
      <div class="icon">
@@ -132,7 +137,7 @@
      <a href="Justin.html"><img src="img/Justin Beiber.jpg"></a>
      <div class="text">
     <p>Justin Beiber</p>
-    <button id="btn" type="button"> Ticket</button>
+    <button class="btn" type="button" onclick="add()"> Ticket</button>
      </div>
      <div class="IIcon">
      <div class="icon">
@@ -146,7 +151,7 @@
    <img src="img/Mariah Carey.jpg" style="width: 20%;height:30%;">
    <div class="text">
    <p >Maria carey</p>
-   <button id="btn" type="button"> Ticket</button>
+   <button class="btn" type="button" onclick="add()"> Ticket</button>
    </div>
    <div class="IIcon">
    <div class="icon">
@@ -156,21 +161,13 @@
   </div>
   </div>
   </div>
-  
- </div> 
-
-
- 
-        
-
-        
-        
+   
 
 
  <div class="footer">
   <div class="links">
    <div>
-     <h5>contact us in</h5>
+     <h5>Contact us at</h5>
      <h6>000000000000</h6>
 
    </div>
@@ -185,6 +182,6 @@
   </div>
   </div>
 </div>
-<script src="script.js"></script>
+<script src="javascript/store.js"></script>
 </body>
 </html>

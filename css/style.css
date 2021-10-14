@@ -269,6 +269,7 @@ header{
     margin-top: 20px;
     padding-bottom: 20px;
     bottom: -60;
+    font-family: 'Lato', sans-serif;
      
 } 
 .links{
@@ -349,16 +350,6 @@ header{
     border-radius:10%;
     backdrop-filter:blur(2.5px);
    
-    
-    /* width: 60px;
-    height: 60px;
-    background-color: transparent;
-    border: black solid;
-     border-radius: 50%; */
-    
-    /* border-top: 40px ;
-    border-right: 80px  ;
-    border-bottom: 40px ; */
 }
 
 .box div:nth-child(1){
@@ -521,6 +512,7 @@ header{
     margin-top: 20px;
     padding-bottom: 20px;
     bottom: -200;
+    font-family: 'Lato', sans-serif;
      
 } 
 .links{
@@ -611,26 +603,6 @@ header{
         background-color:rgba(49, 41, 49, 0.1);
         border-radius:10%;filter: blur(2px);
        
-    
-        /* background: rgba(49, 41, 49, 0.1);
-        backdrop-filter: blur(100px);
-        border-radius: 10px;
-        border-left: 1px solid rgba(49, 41, 49, 0.1);
-        border-top: 1px solid rgba(49, 41, 49, 0.1);
-        box-shadow: 10px 10px 60px -8px rgba(0,0,0,0.2);
-        position: absolute;
-        transition: all 0.2s ease; */
-        
-        
-        /* width: 60px;
-        height: 60px;
-        background-color: transparent;
-        border: black solid;
-         border-radius: 50%; */
-        
-        /* border-top: 40px ;
-        border-right: 80px  ;
-        border-bottom: 40px ; */
     }
     
     .box div:nth-child(1){
@@ -742,17 +714,7 @@ header{
    }
      
     .inside{
-        /* margin-top: 200px;
-        margin-left: 50px;
-        width:30%;
-        height:60%;
-        background-color:rgba(255,255,255,0.1);
-        border-radius:1rem;
-        backdrop-filter:blur(2.5rem);
-        border:1px solid rgba(255,255,255,0.5);
-        border-right:1px solid rgba(255,255,255,0.1);
-        border-bottom:1px solid rgba(255,255,255,0.1);
-        box-shadow:0 2.5rem 4.5rem rgba(0,0,0,0.1); */
+      
         background: rgba(255,255,255,0.3);
         padding: 3em;
         height: 40%;
@@ -787,10 +749,11 @@ header{
         border-left: 1px solid rgba(255,255,255,0.3);
         border-top: 1px solid rgba(255,255,255,0.3);
         backdrop-filter: blur(5px);
-        padding: 5px;
+        padding: 10px;
         cursor: pointer;  
         background-color: white;
         font-weight: bold;
+        margin-left: 2px;
       }
    
       
@@ -804,6 +767,7 @@ header{
         padding-bottom: 20px;
         bottom: -1;
         color: white;
+        font-family: 'Lato', sans-serif;
          
     } 
     .links{

@@ -1,6 +1,6 @@
 
   /*Laptop*/
-@media screen and (min-width: 1024px) and (max-height: 1310px) {
+  @media screen and (min-width: 1024px) and (max-height: 1310px) {
 
  
     body{
@@ -74,27 +74,23 @@
         width: 70%;
         
     }
-   .section{
+   #section{
        display: grid;
        grid-template-columns: 1fr 1fr 1fr 1fr;
        grid-gap: 5%;
        width: 90%;
        margin-left: 4%;
-       
-      
-       
-      
+ 
    }
   
-   .imgBack{
-      
+   /* .imgBack{
        background-color: #f7f5ec;
        margin-left: 9px;
        width: 100%;
        height: 100%;
   
-   }
-
+   } */
+/* 
     .imgBack:hover  .hide {
     display: block;
     color: red;
@@ -112,7 +108,7 @@
   }
   #hide{
       font-size: 20px;
-  }
+  } */
  
 
    img{
@@ -255,14 +251,14 @@
             
            
         }
-        .imgBack{
+        /* .imgBack{
            
             background-color: white;
             margin-left: 9px;
             width: 100%;
             height: 100%;
        
-        }
+        } */
         .imgBack:hover  .hide {
             display: block;
             color: red;
@@ -403,15 +399,15 @@
        
       
    }
-   .imgBack{
+   /* .imgBack{
       
        background-color: white;
        margin-left: 9px;
        width: 100%;
        height: 100%;
   
-   }
-   img{
+   } */
+   /* img{
        width: 20%;
        border-radius: 50% ;
        margin-top: 10px;
@@ -436,7 +432,7 @@
   }
   #hide{
       font-size: 20px;
-  }
+  } */
   .text{
       text-align: center;
   }
