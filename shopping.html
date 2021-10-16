@@ -3,23 +3,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MD.STOR</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Stor</title>
+    <link rel="stylesheet" href="css/shopping.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Yaldevi&display=swap" rel="stylesheet">
+    
 </head>
-<body onload="loadd()">
+<body >
   <header>
     <div class="logo">
       <p>MD.<span>WEBS</span></p>
     </div>
          <div class="content">
             <ul>
-              <li>Home</li>
-              <li><a href="store.html"> Store</a></li>
-              <li><a href="table.html">Information</a></li>
-            
-              
+              <li><a href="index.html"> Home</a></li>
+              <li><a href="store.html"> Stor</a></li>
+              <li><a href="table.html">information</a></li>
+              <li class="cart"><a href="shopping.html"><img id="count-el"  style="width: 20px; margin: 0%;" src="img/shopping cart.png"><span>0</span></a></li>
+              <span id='lblCartCount'>  </span>
             </ul>
           </div>
           <!-- responsPhon -->
@@ -33,16 +34,35 @@
           <div class="mashaInside">
           <ul class="nav">
             <li class="navTag">Home</li>
-            <li class="navTag">Store</li>
-            <li class="navTag">Information</li>
-            
+            <li class="navTag">MyAcount</li>
+            <li class="navTag">Contact us</li>
+            <li><a href="shopping.html"  onclick="loadd()">Test</a></li>
+            <li><a href="shopping.html"> <img id="count-el" style="width: 20px;" src="img/shopping cart.png" onclick="loadd()"></a></li>
           </ul>
         </div>
   </header>
 
-   <div class="ticetPlace"></div>
+
+
+<div class="products-container">
+  <div class="product-header">
+    <h5 class="product-title">PRODUCTS</h5>
+    <h5 class="price">PRICE</h5>
+    <h5 class="quantety">quantety</h5>
+    <h5 class="total">Total</h5>
+  </div>
+  <div class="product">
+
+  </div>
+</div>
+
+
+<!-- <input id="btn"></input>
+<button type="button" onclick="applayCopon()">submmit</button> -->
+
+  
   <!-- <button onclick="loadd()">show</button> -->
-   <div id="test" ></div>
+   <!-- <div id="test" ></div>
   <div class="footer">
     <div class="links">
      <div>
@@ -60,7 +80,9 @@
      <a href="https://www.instagram.com/"> <img src="img/instagram.png" style="width: 20px;"></a>
     </div>
     </div>
-  </div>
+  </div> -->
 <script src="javascript/store.js"></script>
+<script src="javascript/main.js"></script>
+
 </body>
 </html>

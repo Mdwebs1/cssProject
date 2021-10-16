@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Yaldevi&display=swap" rel="stylesheet">
     
 </head>
-<body onload="loadTicket()">
+<body >
   <header>
     <div class="logo">
       <p>MD.<span>WEBS</span></p>
@@ -19,7 +19,7 @@
               <li><a href="index.html"> Home</a></li>
               <li><a href="store.html"> Stor</a></li>
               <li><a href="table.html">information</a></li>
-              <li><img id="count-el"  style="width: 20px; margin: 0%;" src="img/shopping cart.png"></li>
+              <li class="cart"><a href="shopping.html"><img id="count-el"  style="width: 20px; margin: 0%;" src="img/shopping cart.png"><span>0</span></a></li>
               <span id='lblCartCount'>  </span>
             </ul>
           </div>
@@ -45,12 +45,12 @@
 <p class="p">It's Time To Get Your Favorite Celebrity Autograph</p>
 </div> 
 
-<div id="section"></div>
-   <div class="imgBack" onclick="imgCard()"> 
+<div id="section">
+   <div class="imgBack" > 
     <a href="adel.html"><img src="img/adele.jpg"style="width: 20%;height:30%;" ></a>
     <div class="text">
     <p >adel</p>
-    <button class="btn" data-name="adel" data-price="0" type="button" onclick="add()"> Ticket</button>
+    <button class="btn" type="button" > Ticket</button>
   </div>
   <div class="IIcon">
   <div class="icon">
@@ -66,7 +66,7 @@
      <div class="text">
       <div class="hide"><p id="hide">hologram party.</p></div>
     <p>Whitney Houston</p>
-    <button class="btn" data-name="Whitney Houston" data-price="0" type="button" onclick="add()"> Ticket</button>
+    <button class="btn"  type="button" onclick="add()"> Ticket</button>
      </div>
      
      <div class="IIcon">
@@ -81,7 +81,7 @@
      <img src="img/Celine Dion.jpg" style="width: 20%;height:30%;" >
      <div class="text">
     <p>Celine Dion</p>
-    <button class="btn" data-name="Celine Dion" data-price="0" type="button" onclick="add()"> Ticket</button>
+    <button class="btn"  type="button"> Ticket</button>
      </div>
      <div class="IIcon">
      <div class="icon">
@@ -95,7 +95,7 @@
    <img src="img/cia.jpg"style="width: 20%;height:30%;" >
    <div class="text">
    <p >cia</p>
-   <button class="btn" data-name="Cia" data-price="0" type="button" onclick="add()"> Ticket</button>
+   <button class="btn" type="button" > Ticket</button>
    </div>
    <div class="IIcon">
    <div class="icon">
@@ -109,7 +109,7 @@
     <img src="img/Ariana Grande.jpg" style="width: 20%;height:30%;">
     <div class="text">
     <p >Ariana Grande</p>
-    <button class="btn" type="button" onclick="add(e)"> Ticket</button>
+    <button class="btn" type="button"> Ticket</button>
   </div>
   <div class="IIcon">
   <div class="icon">
@@ -123,7 +123,7 @@
      <img src="img/Taylor Swift.jpg" style="width: 20%;height:30%;">
      <div class="text">
     <p>Taylor Swift</p>
-    <button class="btn" type="button" onclick="add()"> Ticket</button>
+    <button class="btn" type="button" > Ticket</button>
      </div>
      <div class="IIcon">
      <div class="icon">
@@ -137,7 +137,7 @@
      <a href="Justin.html"><img src="img/Justin Beiber.jpg"></a>
      <div class="text">
     <p>Justin Beiber</p>
-    <button class="btn" type="button" onclick="add()"> Ticket</button>
+    <button class="btn" type="button" > Ticket</button>
      </div>
      <div class="IIcon">
      <div class="icon">
@@ -151,7 +151,7 @@
    <img src="img/Mariah Carey.jpg" style="width: 20%;height:30%;">
    <div class="text">
    <p >Maria carey</p>
-   <button class="btn" type="button" onclick="add()"> Ticket</button>
+   <button class="btn" type="button" > Ticket</button>
    </div>
    <div class="IIcon">
    <div class="icon">
@@ -161,6 +161,7 @@
   </div>
   </div>
   </div>
+</div>
    
 
 
@@ -183,5 +184,6 @@
   </div>
 </div>
 <script src="javascript/store.js"></script>
+<script src="javascript/main.js"></script>
 </body>
 </html>

@@ -415,7 +415,65 @@
             display: none;
         }
        
-     
+        .products-container{
+            max-width: 650px;
+            justify-content: space-around;
+            margin: 0 auto;
+            margin-top:50px;
+        }
+        .product-header{
+            width: 100%;
+            max-width: 650px;
+            display: flex;
+            justify-self: flex-start;
+            border-bottom:4px solid lightgray;
+            margin: 0 auto;
+        }
+        .product-title{
+            width: 45%;
+        }
+        .price{
+            width: 15%;
+            
+            display: flex;
+            align-items: center;
+
+        }
+        .quantety{
+            width: 15%;
+            border-bottom:4px solid lightgray;
+            display: flex;
+            align-items: center;
+
+        }
+        .total{
+            width: 15%;
+            border-bottom:4px solid lightgray;
+            display: flex;
+            align-items: center;
+
+        }
+        .product{
+            
+            border-bottom:4px solid lightgray;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+           
+
+        }
+        .basketTotalContainer{
+            display: flex;
+            justify-content: flex-end;
+            width: 100%;
+            padding: 10px 0;
+        }
+        .basketTotalTitle{
+            width: 30%;
+        }
+        .basketTotal{
+            width: 10%;
+        }
+
           .footer{
             
             width: 100%; 
